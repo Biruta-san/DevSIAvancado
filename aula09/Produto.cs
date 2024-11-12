@@ -39,6 +39,6 @@ public class Produto
     /// <returns>Retorna uma string com os dados do produto</returns>
     public override string ToString()
     {
-        return $"Id: {Id}, Nome: {Nome}, Preço: {Preco}";
+        return $"Id: {Id}, Nome: {Nome}, Preço: {Preco:C}";
     }
 }
